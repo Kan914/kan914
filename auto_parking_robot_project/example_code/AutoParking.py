@@ -125,7 +125,7 @@ class AutoParking:
         ouput: circle x direction from input image
         """
     
-    # Check if image is loaded fine
+    # 画像チェック
       
         hsvimage = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
         lower = np.array([150, 10, 10], dtype="uint8")
